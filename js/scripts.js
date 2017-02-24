@@ -27,6 +27,8 @@ $(document).ready(function(){
     var userInput = parseInt($(".userInput").val());
     var result = pingPong(userInput)
     console.log(result);
+    $(".pong").show();
+    $(".ping").show();
     $(".list").empty();
     result.forEach(function(number){
       $(".list").append("<li>" + number + "</li>");

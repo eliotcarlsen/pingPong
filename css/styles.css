@@ -1,5 +1,6 @@
 h2{
   text-align: center;
+  border: 1px solid black;
 }
 
 .jumbotron#jumbo{
@@ -16,9 +17,30 @@ h2{
 }
 
 h5{
-color: red;
+  border: 1px solid black;
+  color: blue;
+  font-weight: bold;
 }
 
 .btn{
   background-color: grey;
+}
+
+.list{
+  color: blue;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+img.pong{
+  margin-top: 5%;
+  display: none;
+  height: 60%;
+  width: 60%;
+}
+img.ping{
+  margin-top: 5%;
+  display: none;
+  height: auto;
+  width: auto;
 }
