@@ -8,6 +8,7 @@ h2{
 }
 
 #aboutSection{
+  opacity: 50%
   float: left;
   background-color: grey;
   padding: 20px;
@@ -30,6 +31,7 @@ h5{
 }
 
 .btn{
+  opacity: 50%
   background-color: grey;
 }
 
