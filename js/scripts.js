@@ -2,10 +2,9 @@
 function pingPong(input){
   //debugger;
   var numberArray = []
-  var number = ""
   for(var i = 1; i <= input; i ++){
     if (i % 15 === 0){
-      numberArray.push("pingpong");
+      numberArray.push("ping-pong");
     }else if(i % 5 === 0){
       numberArray.push("pong");
     }else if (i % 3 === 0){
@@ -28,8 +27,8 @@ $(document).ready(function(){
     var userInput = parseInt($(".userInput").val());
     var result = pingPong(userInput)
     console.log(result);
+    $(".list").empty();
     result.forEach(function(number){
-      console.log(number);
       $(".list").append("<li>" + number + "</li>");
     });
   });
