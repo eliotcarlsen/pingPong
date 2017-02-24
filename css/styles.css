@@ -10,10 +10,17 @@ h2{
 #aboutSection{
   float: left;
   background-color: grey;
+  padding: 20px;
+  padding-bottom: 50px;
 }
 
 #rulesSection{
   float: right;
+}
+
+.rules {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
 }
 
 h5{
@@ -37,4 +44,8 @@ img.pong{
   display: none;
   height: 60%;
   width: 60%;
+}
+
+form{
+  padding-top: 10px;
 }
