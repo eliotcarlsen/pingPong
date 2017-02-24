@@ -6,36 +6,36 @@
 
 ## Description
 _Specs: Ping Pong Game
-take a number from user return range from 1 to userInput
+_Program takes a number from user input and returns the range from 1 to number
 input: 3
 output: 1, 2, 3
 
-if output is divisible by 3 replace output with "ping"
+If output is divisible by 3 replace output with "ping"
 input: 3
 output: 1, 2, "ping"
 
-if output is divisible by 5, replace output with "pong"
+If output is divisible by 5, replace output with "pong"
 input: 5
 output: 1, 2, ping, 4, pong
 
-if output is divisible by 15, replace output with "ping-pong"
+If output is divisible by 15, replace output with "ping-pong"
 input: 15
 output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong
 
-if user inputs two numbers in a row, program will erase old numbers and see new results over and over
+If user inputs two numbers in a row, program will erase old numbers and see new results over and over
 input: 3
 output: 1, 2, ping
 input: 2
 output: 1, 2
 
-output these results in a List
+Output will provide the numbers, pings/pongs/ping-pongs in a list
 .1
 .2
 .ping
 
-Rules for game are listed in HTML
+Rules for game will be listed in HTML
 
-Program page is styled in CSS and HTML_
+Program page will be styled in CSS and HTML_
 
 ## Setup/Installation Requirements
 
