@@ -2,6 +2,10 @@ h2{
   text-align: center;
 }
 
+.jumbotron#jumbo{
+  background-color: grey;
+}
+
 #aboutSection{
   float: left;
   background-color: blue;
@@ -15,10 +19,10 @@ h5{
 color: red;
 }
 
-body{
-  background-color: red;
-}
-
 #gitHub{
   color: grey;
+}
+
+.btn{
+  background-color: blue;
 }
