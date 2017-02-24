@@ -13,6 +13,7 @@ function pingPong(input){
       numberArray.push(i);
     };
   };
+  return numberArray
   console.log(numberArray)
 };
 
@@ -26,6 +27,7 @@ $(document).ready(function(){
     event.preventDefault();
     var userInput = parseInt($(".userInput").val());
     var result = pingPong(userInput)
-
+    console.log(result)
+    $(".list").text(result);
   });
 });
