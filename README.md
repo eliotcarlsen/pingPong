@@ -3,11 +3,6 @@ take a number from user return range from 1 to userInput
 input: 3
 output: 1, 2, 3
 
-output these numbers in a List
-.1
-.2
-.3
-
 if output is divisible by 3 replace output with "ping"
 input: 3
 output: 1, 2, "ping"
@@ -26,7 +21,10 @@ output: 1, 2, ping
 input: 2
 output: 1, 2
 
-
+output these results in a List
+.1
+.2
+.ping
 
 
 
