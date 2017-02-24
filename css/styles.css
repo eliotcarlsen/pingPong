@@ -8,7 +8,7 @@ h2{
 
 #aboutSection{
   float: left;
-  background-color: blue;
+  background-color: grey;
 }
 
 #rulesSection{
@@ -19,10 +19,6 @@ h5{
 color: red;
 }
 
-#gitHub{
-  color: grey;
-}
-
 .btn{
-  background-color: blue;
+  background-color: grey;
 }
