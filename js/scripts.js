@@ -2,6 +2,7 @@
 function pingPong(input){
   //debugger;
   var numberArray = []
+  var number = ""
   for(var i = 1; i <= input; i ++){
     if (i % 15 === 0){
       numberArray.push("pingpong");
@@ -14,7 +15,6 @@ function pingPong(input){
     };
   };
   return numberArray
-  console.log(numberArray)
 };
 
 
@@ -27,7 +27,10 @@ $(document).ready(function(){
     event.preventDefault();
     var userInput = parseInt($(".userInput").val());
     var result = pingPong(userInput)
-    console.log(result)
-    $(".list").text(result);
+    console.log(result);
+    result.forEach(function(number){
+      console.log(number);
+      $(".list").append("<li>" + number + "</li>");
+    });
   });
 });

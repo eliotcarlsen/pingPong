@@ -26,6 +26,11 @@ output these results in a List
 .2
 .ping
 
+rules for game are listed
+
+program page is styled in css and HTML
+
+
 
 
 
