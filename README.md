@@ -1,4 +1,4 @@
-# _Ping Pong_
+# _Ping Pong https://eliotcarlsen.github.io/pingPong/_
 
 #### _Program will take a number, count up to that number and output "ping", "pong" or "ping-pong" when it hits a number divisible by 3, 5 or 15, 2/24/17_
 
